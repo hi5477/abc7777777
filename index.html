@@ -81,7 +81,7 @@
 
 <div id="lockScreen">
   <div class="box">
-    <h2>🔒 日本線報價試算</h2>
+    <h2>🔒 よ！</h2>
     <p>請輸入密碼</p>
     <div class="err" id="lockErr"></div>
     <input type="password" id="lockInput" inputmode="numeric" placeholder="密碼" autocomplete="off">
@@ -91,7 +91,7 @@
 
 <header>
   <div>
-    <h1>日本線報價試算</h1>
+    <h1>よ！</h1>
     <div class="sub" id="groupNameTag">未命名報價</div>
   </div>
   <button onclick="openModal('settingsModal')">⚙️ 設定</button>
@@ -661,7 +661,7 @@ function buildSummaryHTML(){
   });
   return `
   <div style="font-family:'Microsoft JhengHei','PingFang TC',sans-serif;color:#111;max-width:680px;">
-    <h2 style="color:#0f766e;margin-bottom:2px;">日本線報價單</h2>
+    <h2 style="color:#0f766e;margin-bottom:2px;">よ！</h2>
     <table style="width:100%;border-collapse:collapse;font-size:13px;margin:10px 0 16px;">
       <tr><td style="padding:4px 0;color:#555;width:35%;">團體名稱／團號</td><td style="padding:4px 0;font-weight:bold;">${Q.groupName||''}</td></tr>
       <tr><td style="padding:4px 0;color:#555;">製表日期</td><td style="padding:4px 0;">${Q.reportDate||''}</td></tr>
